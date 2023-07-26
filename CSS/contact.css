@@ -1,11 +1,14 @@
-.registerForm{
-    height: 750px;
+.contactForm{
+    height: 550px;
 }
 
 /*  #############################  mobile ########################### */
 
 @media only screen and (max-width: 767px) {
-    .registerForm{
+    .fs-35 {
+        font-size: 20px !important;
+    }
+    .contactForm{
         height: 600px !important;
     }
 }
