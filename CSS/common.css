@@ -1,0 +1,225 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    color: rgba(26, 46, 53, 0.45);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.bg-main {
+    background: rgba(81, 75, 220, 1) !important;
+}
+
+.bg-main-light {
+    background: rgba(81, 75, 220, 0.15) !important;
+}
+
+.text-purple {
+    color: rgba(81, 75, 220, 1) !important;
+}
+
+.bg-grey {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.inputBg {
+    background: rgba(244, 244, 244, 1);
+}
+
+.bg-main:hover {
+    background: rgba(81, 75, 220, 1) !important;
+}
+
+.bg-grey:hover {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+.fs-50 {
+    font-size: 50px;
+}
+
+.fs-66 {
+    font-size: 66px;
+}
+
+.fs-1vw {
+    font-size: 1vw;
+}
+
+.fs-1-2vw {
+    font-size: 1.2vw;
+}
+
+.fs-1-5vw {
+    font-size: 1.5vw;
+}
+
+.fs-2-2vw {
+    font-size: 2.2vw;
+}
+
+.fs-2vw {
+    font-size: 1.8vw;
+}
+
+.fs-2-7vw {
+    font-size: 2.7vw;
+    line-height: 53px;
+}
+
+.fs-3vw {
+    font-size: 3vw;
+}
+
+.fs-4vw {
+    font-size: 4vw;
+}
+
+.fWeight-200 {
+    font-weight: 200;
+}
+
+.fWeight-300 {
+    font-weight: 300;
+}
+
+.fWeight-400 {
+    font-weight: 400;
+}
+
+.fWeight-500 {
+    font-weight: 500;
+}
+
+.fWeight-600 {
+    font-weight: 600;
+}
+
+.fWeight-700 {
+    font-weight: 700;
+}
+
+.fWeight-800 {
+    font-weight: 800;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.footerBtn {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+#footerInput {
+    border: none;
+    background: unset !important;
+}
+
+input#footerInput :focus {
+    outline: none !important;
+    background: unset !important;
+    color: white;
+    box-shadow: unset !important;
+}
+
+.form-control ::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white !important;
+}
+
+.landingImg {
+    left: 25%;
+    bottom: -75px;
+}
+
+.map {
+    top: 200px;
+    left: 12.5%;
+    right: 12.5%;
+}
+
+#register {
+    background-image: url(../IMAGES/registerBg.svg);
+    z-index: -1;
+}
+
+.borderShadow {
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.emptyInput{
+    border: none;
+}
+.registerForm{
+    height: 750px;
+}
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 767px) {
+    .nav-mobile{
+        background: rgba(81, 75, 220, 1) !important;
+    }
+    .nav-mobile .text-dark, .nav-mobile .text-purple{
+       color: white !important;
+    }
+    .fs-14, .fs-18 {
+        font-size: 12px;
+    }
+    .fs-20 {
+        font-size: 16px;
+    }
+    .fs-25 {
+        font-size: 14px;
+    }
+    .fs-35, .fs-66  {
+        font-size: 30px;
+    }
+    .imgWidth {
+        width: 70% !important;
+    }
+    .registerForm{
+        height: 1150px;
+    }
+}

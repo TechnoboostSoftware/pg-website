@@ -1,0 +1,55 @@
+#bgImg {
+    background-image: url(../IMAGES/backgroundImg.svg);
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+}
+
+.w-860 {
+    width: 860px;
+}
+
+.w-711 {
+    width: 711px;
+}
+
+/*  #############################  tab ########################### */
+@media only screen and (max-width: 767px) {
+    .landingImg {
+        width: 60% !important;
+    }
+    .storiesTenant {
+        font-size: 16px !important;
+    }
+
+    .storyStar {
+        width: 50% !important;
+    }
+
+    .storiesLorem {
+        font-size: 10px;
+    }
+
+    .w-860 {
+        width: 350px;
+    }
+
+    .w-711 {
+        width: 300px;
+    }
+
+    #bgImg {
+        height: 200px;
+    }
+}
+
+/*  #############################  mobile ########################### */
+@media only screen and (max-width: 576px) {
+    .landingImg {
+        width: 90% !important;
+    }
+
+    .man {
+        width: 30% !important;
+    }
+}

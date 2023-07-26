@@ -1,0 +1,20 @@
+#searchDropdown{
+    bottom: -345px;
+}
+/*  #############################  mobile ########################### */
+
+@media only screen and (max-width: 767px) {
+    .fs-18 {
+        font-size: 12px !important;
+    }
+    .fs-35 {
+        font-size: 20px !important;
+    }
+
+    .searchWidth {
+        width: 90% !important;
+    }
+    .searchBtn{
+        font-size: 12px;
+    }
+}
