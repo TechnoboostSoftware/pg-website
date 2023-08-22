@@ -8,11 +8,16 @@
 .bg-main {
     background: rgba(81, 75, 220, 1) !important;
 }
+.bg-light {
+    background: #fff !important;
+}
 
 .bg-main-light {
     background: rgba(81, 75, 220, 0.15) !important;
 }
-
+.capitalize{
+    text-transform: capitalize;
+}
 .text-purple {
     color: rgba(81, 75, 220, 1) !important;
 }
@@ -32,7 +37,9 @@
 .bg-grey:hover {
     background: rgba(0, 0, 0, 0.08);
 }
-
+.capitilize{
+    text-transform: capitalize !important;
+}
 .fs-14 {
     font-size: 14px;
 }
@@ -161,13 +168,16 @@ input#footerInput :focus {
     color: white;
     box-shadow: unset !important;
 }
-
-.form-control ::placeholder {
-    font-weight: 400;
-    font-size: 20px;
-    text-transform: capitalize;
-    color: white !important;
+.text-grey{
+    color: #696C6E !important;
 }
+.form-control::placeholder {
+    font-weight: 500 !important;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #696C6E !important;
+}
+
 
 .landingImg {
     left: 25%;
@@ -195,6 +205,19 @@ input#footerInput :focus {
 .registerForm{
     height: 750px;
 }
+.text-small{
+    font-size: 16px;
+}
+.registerBtn{
+    font-size: 20px;
+}
+.w-60{
+    width: 60%;
+}
+#contact {
+    background-image: url(../IMAGES/bgContact.svg);
+    z-index: -1;
+}
 /*  #############################  mobile ########################### */
 
 @media only screen and (max-width: 767px) {
@@ -210,7 +233,7 @@ input#footerInput :focus {
     .fs-20 {
         font-size: 16px;
     }
-    .fs-25 {
+    .fs-25, .fs-16{
         font-size: 14px;
     }
     .fs-35, .fs-66  {
@@ -221,5 +244,14 @@ input#footerInput :focus {
     }
     .registerForm{
         height: 1150px;
+    }
+    .storiesTenant{
+        font-size: 16px;
+    }
+    .text-small{
+        font-size: 12px;
+    }
+    .registerBtn{
+        font-size: 18px;
     }
 }

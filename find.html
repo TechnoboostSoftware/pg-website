@@ -85,7 +85,7 @@
 
         <!-- ############################# search #################################-->
         <div id="searchBar">
-            <div id="register" style="height: 450px;">
+            <div id="contact" style="height: 350px;">
                 <div class="container d-flex flex-column pt-5 align-items-center">
                     <p class="fWeight-700 fs-35 m-0 text-light">Search PG iD here</p>
                     <p class="fWeight-500 fs-18 text-light text-center">Enter the location or property name</p>
@@ -94,7 +94,7 @@
                     <div class="d-flex align-items-center justify-content-center searchWidth w-75 ">
                         <div class="input-group rounded input-group-lg bg-light mt-md-5 mt-3 p-2 ">
                             <input type="text" id="myInput"
-                                class="form-control border-0 bg-light fWeight-400 footerInput text-dark fs-20 p-3"
+                                class="form-control border-0 bg-light fWeight-400 footerInput text-dark fs-20 px-3 py-2"
                                 aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"
                                 placeholder="Enter PG Name" onclick="search()">
                             <button class="fWeight-400 searchBtn fs-20 bg-main text-light py-1 px-3 rounded border-0"
@@ -104,86 +104,149 @@
                     <div class="w-75 bg-light d-none justify-content-center searchWidth  align-items-center"
                         id="searchDropdown">
                         <ul class="list-group" id="myList">
-                            <li class="list-group-item border-0">
-                                <div class="row align-items-center justify-content-start py-3">
+                            <li class="list-group-item border-0" type="button">
+                                <div class="row d-md-flex d-none align-items-center justify-content-start py-3">
                                     <div class="col-md-3 col-2 d-flex align-items-center">
                                         <img src="IMAGES/searchPage.svg" class="pe-3">
                                         <p class="fWeight-400 m-0 fs-16 text-dark d-none d-md-inline">Sri balaji pg</p>
                                     </div>
                                     <div class="col-md-5 col-7">
-                                        <div class="d-flex gap-2">
-                                            <p class="fWeight-400 m-0 fs-16 text-dark d-inline d-md-none">Sri balaji pg
-                                            </p>
-                                            <p class="fWeight-400 m-0 fs-16 text-dark d-inline d-md-none">PG ID:127728
-                                            </p>
-                                        </div>
-
-                                        <p class="fWeight-400 m-0 fs-16 ">VPWC+V7P, kodathi gate, bheema
+                                        <p class="fWeight-400 m-0 fs-14" style="color: rgba(30, 30, 30, 0.60);">
+                                            VPWC+V7P, kodathi gate, bheema
                                             Reddy
                                             layout, Sarjapur - Marathahalli Rd, Bengaluru, Karnataka 560035,</p>
                                     </div>
                                     <div class="col-md-2 d-none d-md-inline">
                                         <p class="fWeight-400 m-0 fs-16 text-dark d-none d-md-inline">PG ID:127728</p>
                                     </div>
-                                    <div class="col-md-2 col-3">
+                                    <div class="col-md-2 col-3 d-flex justify-content-end">
                                         <button
-                                            class="input-group-text fWeight-400 fs-20 bg-main-light text-purple py-2">Copy
+                                            class="input-group-text fWeight-500 fs-20 bg-main-light text-purple py-2">Copy
+                                            ID</button>
+                                    </div>
+                                </div>
+                                <div class="row d-md-none d-flex py-3">
+                                    <div class="col-md-3 col-2">
+                                        <div class="d-flex align-items-start"><img src="IMAGES/searchPage.svg"
+                                                class="pe-3"></div>
+                                    </div>
+                                    <div class="col-md-5 col-7">
+                                        <div class="d-flex gap-2">
+                                            <p class="fWeight-400 m-0 fs-16 text-dark text-small d-inline d-md-none">Sri
+                                                balaji pg
+                                            </p>
+                                            <p class="fWeight-500 m-0 fs-16 text-dark text-small d-inline d-md-none">PG
+                                                ID:127728
+                                            </p>
+                                        </div>
+
+                                        <p class="fWeight-400 m-0 fs-14" style="color: rgba(30, 30, 30, 0.60);">
+                                            VPWC+V7P, kodathi gate, bheema
+                                            Reddy
+                                            layout, Sarjapur - Marathahalli Rd, Bengaluru, Karnataka 560035,</p>
+                                    </div>
+                                    <div class="col-md-2 col-3 d-flex justify-content-end align-items-center">
+                                        <button
+                                            class="input-group-text fWeight-500 fs-20 bg-main-light text-purple py-2">Copy
                                             ID</button>
                                     </div>
                                 </div>
                             </li>
-                            <li class="list-group-item border-0">
-                                <div class="row align-items-center justify-content-start py-3">
+                            <li class="list-group-item border-0" type="button">
+                                <div class="row d-md-flex d-none align-items-center justify-content-start py-3">
                                     <div class="col-md-3 col-2 d-flex align-items-center">
                                         <img src="IMAGES/searchPage.svg" class="pe-3">
                                         <p class="fWeight-400 m-0 fs-16 text-dark d-none d-md-inline">Sri balaji pg</p>
                                     </div>
                                     <div class="col-md-5 col-7">
-                                        <div class="d-flex gap-2">
-                                            <p class="fWeight-400 m-0 fs-16 text-dark d-inline d-md-none">Sri balaji pg
-                                            </p>
-                                            <p class="fWeight-400 m-0 fs-16 text-dark d-inline d-md-none">PG ID:127728
-                                            </p>
-                                        </div>
-
-                                        <p class="fWeight-400 m-0 fs-16 ">VPWC+V7P, kodathi gate, bheema
+                                        <p class="fWeight-400 m-0 fs-14" style="color: rgba(30, 30, 30, 0.60);">
+                                            VPWC+V7P, kodathi gate, bheema
                                             Reddy
                                             layout, Sarjapur - Marathahalli Rd, Bengaluru, Karnataka 560035,</p>
                                     </div>
                                     <div class="col-md-2 d-none d-md-inline">
                                         <p class="fWeight-400 m-0 fs-16 text-dark d-none d-md-inline">PG ID:127728</p>
                                     </div>
-                                    <div class="col-md-2 col-3">
+                                    <div class="col-md-2 col-3 d-flex justify-content-end">
                                         <button
-                                            class="input-group-text fWeight-400 fs-20 bg-main-light text-purple py-2">Copy
+                                            class="input-group-text fWeight-500 fs-20 bg-main-light text-purple py-2">Copy
+                                            ID</button>
+                                    </div>
+                                </div>
+                                <div class="row d-md-none d-flex py-3">
+                                    <div class="col-md-3 col-2">
+                                        <div class="d-flex align-items-start"><img src="IMAGES/searchPage.svg"
+                                                class="pe-3"></div>
+                                    </div>
+                                    <div class="col-md-5 col-7">
+                                        <div class="d-flex gap-2">
+                                            <p class="fWeight-400 m-0 fs-16 text-dark text-small d-inline d-md-none">Sri
+                                                balaji pg
+                                            </p>
+                                            <p class="fWeight-500 m-0 fs-16 text-dark text-small d-inline d-md-none">PG
+                                                ID:127728
+                                            </p>
+                                        </div>
+
+                                        <p class="fWeight-400 m-0 fs-14" style="color: rgba(30, 30, 30, 0.60);">
+                                            VPWC+V7P, kodathi gate, bheema
+                                            Reddy
+                                            layout, Sarjapur - Marathahalli Rd, Bengaluru, Karnataka 560035,</p>
+                                    </div>
+                                    <div class="col-md-2 col-3 d-flex justify-content-end align-items-center">
+                                        <button
+                                            class="input-group-text fWeight-500 fs-20 bg-main-light text-purple py-2">Copy
                                             ID</button>
                                     </div>
                                 </div>
                             </li>
-                            <li class="list-group-item border-0">
-                                <div class="row align-items-center justify-content-start py-3">
-                                    <div class="col-md-3 col-2 d-flex align-items-center">
-                                        <img src="IMAGES/searchPage.svg" class="pe-3">
-                                        <p class="fWeight-400 m-0 fs-16 text-dark d-none d-md-inline">Sri balaji pg</p>
-                                    </div>
-                                    <div class="col-md-5 col-7">
-                                        <div class="d-flex gap-2">
-                                            <p class="fWeight-400 m-0 fs-16 text-dark d-inline d-md-none">Sri balaji pg
-                                            </p>
-                                            <p class="fWeight-400 m-0 fs-16 text-dark d-inline d-md-none">PG ID:127728
+                            <li class="list-group-item border-0" type="button">
+                                <div class="row d-md-flex d-none align-items-center justify-content-start py-3">
+                                    <div class="col-md-3 col-2">
+                                        <div class="d-flex align-items-md-center align-items-start"><img
+                                                src="IMAGES/searchPage.svg" class="pe-3">
+                                            <p class="fWeight-400 m-0 fs-16 text-dark d-none d-md-inline">Sri balaji pg
                                             </p>
                                         </div>
-
-                                        <p class="fWeight-400 m-0 fs-16 ">VPWC+V7P, kodathi gate, bheema
+                                    </div>
+                                    <div class="col-md-5 col-7">
+                                        <p class="fWeight-400 m-0 fs-14" style="color: rgba(30, 30, 30, 0.60);">
+                                            VPWC+V7P, kodathi gate, bheema
                                             Reddy
                                             layout, Sarjapur - Marathahalli Rd, Bengaluru, Karnataka 560035,</p>
                                     </div>
                                     <div class="col-md-2 d-none d-md-inline">
                                         <p class="fWeight-400 m-0 fs-16 text-dark d-none d-md-inline">PG ID:127728</p>
                                     </div>
-                                    <div class="col-md-2 col-3">
+                                    <div class="col-md-2 col-3 d-flex justify-content-end">
                                         <button
-                                            class="input-group-text fWeight-400 fs-20 bg-main-light text-purple py-2">Copy
+                                            class="input-group-text fWeight-500 fs-20 bg-main-light text-purple py-2">Copy
+                                            ID</button>
+                                    </div>
+                                </div>
+                                <div class="row d-md-none d-flex py-3">
+                                    <div class="col-md-3 col-2">
+                                        <div class="d-flex align-items-start"><img src="IMAGES/searchPage.svg"
+                                                class="pe-3"></div>
+                                    </div>
+                                    <div class="col-md-5 col-7">
+                                        <div class="d-flex gap-2">
+                                            <p class="fWeight-400 m-0 fs-16 text-dark text-small d-inline d-md-none">Sri
+                                                balaji pg
+                                            </p>
+                                            <p class="fWeight-500 m-0 fs-16 text-dark text-small d-inline d-md-none">PG
+                                                ID:127728
+                                            </p>
+                                        </div>
+
+                                        <p class="fWeight-400 m-0 fs-14" style="color: rgba(30, 30, 30, 0.60);">
+                                            VPWC+V7P, kodathi gate, bheema
+                                            Reddy
+                                            layout, Sarjapur - Marathahalli Rd, Bengaluru, Karnataka 560035,</p>
+                                    </div>
+                                    <div class="col-md-2 col-3 d-flex justify-content-end align-items-center">
+                                        <button
+                                            class="input-group-text fWeight-500 fs-20 bg-main-light text-purple py-2">Copy
                                             ID</button>
                                     </div>
                                 </div>
@@ -195,11 +258,11 @@
         </div>
 
         <!-- ############################# search #################################-->
-        <div id="Download" class="pt-5 container">
-            <div class="row flex-md-row flex-column-reverse align-items-center">
+        <div id="Download" class="pt-md-5 pt-3 container">
+            <div class="row flex-md-row flex-column-reverse align-items-start">
                 <div class="col-md-5 col-12 d-flex justify-content-center pt-md-0 pt-4"><img src="IMAGES/halfPhone.svg"
                         class="w-50"></div>
-                <div class="col-md-7 col-12">
+                <div class="col-md-7 col-12 pt-md-3 pt-0">
                     <div class="d-flex flex-column justify-content-md-start justify-content-center">
                         <p class="fs-35 fWeight-700 text-dark m-0 text-md-start text-center">Download one app for</p>
                         <p class="fs-35 fWeight-700 text-dark text-md-start text-center">PG managment for <span
@@ -210,10 +273,15 @@
                             management of transactions and
                             PG affairs, empowering owners and tenants with streamlined communication, rent payments, and
                             maintenance requests.</p>
-                        <div class="d-flex gap-3 justify-content-md-start justify-content-center">
+                        <div class="d-md-flex d-none gap-3 align-items-md-start align-items-center">
                             <a href="#" class="text-decoration-none"><img src="IMAGES/playStore.svg" class="w-100"></a>
                             <a href="#" class="text-decoration-none"><img src="IMAGES/appaleStore.svg"
                                     class="w-100"></a>
+                        </div>
+                        <div class="d-md-none d-flex gap-3 ">
+                            <a href="#" class="text-decoration-none d-flex justify-content-end"><img src="IMAGES/playStore.svg" class="w-60"></a>
+                            <a href="#" class="text-decoration-none"><img src="IMAGES/appaleStore.svg"
+                                    class="w-60"></a>
                         </div>
                     </div>
                 </div>
@@ -223,7 +291,7 @@
 
         <!-- !-- ############################# footer ##############################  -->
         <div class="bg-main py-5">
-            <div class="d-flex flex-column align-items-center container border-bottom ">
+            <div class="d-flex flex-column align-items-center container" style="border-bottom:1px solid rgba(255, 255, 255, 0.29);">
                 <img src="IMAGES/footerLogo.svg">
                 <p class="py-3 m-0 text-light text-center fs-18 fWeight-400">The comprehensive app for effortless
                     management of
@@ -231,7 +299,7 @@
                     affairs, empowering
                     owners and tenants with streamlined communication, rent payments, and maintenance requests.
                 </p>
-                <div class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-3 pb-5 py-3">
+                <div class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-2 pb-5 py-3">
                     <img src="IMAGES/footerApple.svg" class="w-100 imgWidth">
                     <img src="IMAGES/footerPlay.svg" class="w-100 imgWidth">
                 </div>

@@ -66,9 +66,6 @@
                                 <a href="#" class="text-decoration-none fWeight-600 px-4 py-2 rounded text-purple fs-18"
                                     style="border: 1px solid rgba(81, 75, 220, 1);">
                                     Download App</a>
-                                <a href="register.html"
-                                    class="text-decoration-none bg-main fWeight-600 px-4 py-2 rounded text-light fs-18">Register
-                                    PG</a>
                             </div>
                             <div class="d-md-none d-flex">
                                 <a href="#" class="text-decoration-none d-flex justify-content-start"><img
@@ -85,7 +82,7 @@
 
         <!-- ############################# search #################################-->
         <div class="registerForm">
-            <div id="register" style="height: 450px;">
+            <div id="contact" style="height: 320px;">
                 <div class="container d-flex flex-column pt-5 align-items-center">
                     <p class="fWeight-700 fs-35 m-0 text-light">Register your property</p>
                     <p class="fWeight-500 fs-18 text-light text-center">Enter the pg related Details To contact</p>
@@ -94,12 +91,12 @@
                     <div class="p-3 bg-light rounded borderShadow">
                         <div class="row align-items-center">
                             <div class="col-md-6 col-12 py-2">
-                                <input type="text" class="w-100 py-3 text-dark px-4 rounded inputBg emptyInput my-3"
+                                <input type="text" class="w-100 capitalize py-3 text-dark px-4 rounded inputBg emptyInput my-3"
                                     placeholder="Enter your name" onclick="removeErrorBorder('registerName')"
                                     id="registerName">
                             </div>
                             <div class="col-md-6 col-12 py-2 ">
-                                <input type="text" class="w-100 py-3 text-dark px-4 rounded inputBg emptyInput my-3"
+                                <input type="text" class="w-100 capitalize py-3 text-dark px-4 rounded inputBg emptyInput my-3"
                                     placeholder="Contact number" onclick="removeErrorBorder('registerNumber')"
                                     id="registerNumber">
                             </div>
@@ -107,13 +104,13 @@
 
                         <div class="row align-items-center">
                             <div class="col-md-6 col-12 py-2">
-                                <input type="text" class="w-100 py-3 text-dark px-4 rounded inputBg emptyInput my-3"
+                                <input type="text" class="w-100 capitalize py-3 text-dark px-4 rounded inputBg emptyInput my-3"
                                     placeholder="Enter Property name" onclick="removeErrorBorder('registerProperty')"
                                     id="registerProperty">
                             </div>
                             <div class="col-md-6 col-12 py-2">
                                 <div class="d-flex align-items-center gap-5">
-                                    <p class="fWeight-600 fs-18 m-0 text-dark">Is PG registered?</p>
+                                    <p class="fWeight-600 fs-16 m-0 text-dark">Is PG registered?</p>
                                     <div class="d-flex align-items-center gap-3">
                                         <a href="#"
                                             class="text-decoration-none fWeight-600 px-md-5 px-4 py-2 rounded text-purple fs-18"
@@ -130,42 +127,47 @@
 
                         <div class="row align-items-center">
                             <div class="col-md-6 col-12 py-2">
-                                <div class="d-flex flex-md-row flex-column gap-5">
-                                    <div class="d-flex flex-column justify-content-start">
-                                        <label for="" class="text-dark pb-3">Country:</label>
-                                        <div class="dropdown border rounded">
-                                            <a class="btn bg-light btn-lg dropdown-toggle" href="#" role="button"
-                                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Select state
-                                            </a>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="d-flex flex-column justify-content-start">
+                                            <label for="" class="text-dark pb-3">Country:</label>
+                                            <div class="dropdown border rounded">
+                                                <a class="btn bg-light btn-lg dropdown-toggle text-grey" href="#" role="button"
+                                                    id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    Select state
+                                                </a>
 
-                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="d-flex flex-column justify-content-start">
+                                            <label for="" class="text-dark pb-3">State:</label>
+                                            <div class="dropdown border rounded">
+                                                <a class="btn bg-light btn-lg dropdown-toggle text-grey" href="#" role="button"
+                                                    id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                                    aria-expanded="false">
+                                                    Select state
+                                                </a>
 
-                                    <div class="d-flex flex-column justify-content-start">
-                                        <label for="" class="text-dark pb-3">State:</label>
-                                        <div class="dropdown border rounded">
-                                            <a class="btn bg-light btn-lg dropdown-toggle" href="#" role="button"
-                                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Select state
-                                            </a>
-
-                                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
+                                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-12 py-2">
-                                <input type="text" class="w-100 py-3 text-dark px-4 rounded inputBg emptyInput my-3"
+                                <input type="text" class="w-100 capitalize py-3 text-dark px-4 rounded inputBg emptyInput my-3"
                                     placeholder="Enter Address" onclick="removeErrorBorder('registerAddress')"
                                     id="registerAddress">
                             </div>
@@ -173,28 +175,27 @@
 
                         <div class="row align-items-center">
                             <div class="col-md-6 col-12 py-2">
-                                <label for="" class="fWeight-600 fs-16 text-dark">Add business registration proof:</label>
-                                <input type="text" class="w-100 py-3 text-dark px-4 rounded inputBg emptyInput my-3"
+                                <label for="" class="fWeight-600 fs-16 text-dark">Add business registration
+                                    proof:</label>
+                                <input type="text" class="w-100 capitalize py-3 text-dark px-4 rounded inputBg emptyInput my-3"
                                     placeholder="Enter PAN Number" onclick="removeErrorBorder('registerPan')"
                                     id="registerPan">
                             </div>
                             <div class="col-md-6 col-12 py-2">
                                 <div class="d-flex align-items-center gap-5">
                                     <input type="file" id="myfile" name="myfile" placeholder="Upload PAN Photo"
-                                        class="w-100">
+                                        class="w-100 ">
                                 </div>
                             </div>
                         </div>
 
                         <div class="d-flex justify-content-center align-items-center pt-5 pb-3">
                             <div class="d-flex align-items-center gap-3">
-                                <button href="#"
-                                    class="text-decoration-none fWeight-600 px-4 py-2 rounded text-light bg-main fs-18"
+                                <button class="fWeight-600 px-4 py-2 registerBtn rounded text-light bg-main"
                                     style="border: 1px solid rgba(81, 75, 220, 1);" id="registerBtn"
                                     onclick="register()">
                                     Register PG</button>
-                                <button href="#"
-                                    class="text-decoration-none fWeight-600 px-4 py-2  rounded text-purple fs-18"
+                                <button class="fWeight-600 px-4 py-2 registerBtn bg-light rounded text-purple"
                                     style="border: 1px solid rgba(81, 75, 220, 1);">
                                     Contact us</button>
                             </div>
@@ -206,11 +207,11 @@
         </div>
 
         <!-- ############################# Download #################################-->
-        <div id="Download" class="pt-5 container">
-            <div class="row flex-md-row flex-column-reverse align-items-center">
+        <div id="Download" class="pt-md-5 pt-3 container">
+            <div class="row flex-md-row flex-column-reverse align-items-start">
                 <div class="col-md-5 col-12 d-flex justify-content-center pt-md-0 pt-4"><img src="IMAGES/halfPhone.svg"
                         class="w-50"></div>
-                <div class="col-md-7 col-12">
+                <div class="col-md-7 col-12 pt-md-3 pt-0">
                     <div class="d-flex flex-column justify-content-md-start justify-content-center">
                         <p class="fs-35 fWeight-700 text-dark m-0 text-md-start text-center">Download one app for</p>
                         <p class="fs-35 fWeight-700 text-dark text-md-start text-center">PG managment for <span
@@ -221,10 +222,15 @@
                             management of transactions and
                             PG affairs, empowering owners and tenants with streamlined communication, rent payments, and
                             maintenance requests.</p>
-                        <div class="d-flex gap-3 justify-content-md-start justify-content-center">
+                        <div class="d-md-flex d-none gap-3 align-items-md-start align-items-center">
                             <a href="#" class="text-decoration-none"><img src="IMAGES/playStore.svg" class="w-100"></a>
                             <a href="#" class="text-decoration-none"><img src="IMAGES/appaleStore.svg"
                                     class="w-100"></a>
+                        </div>
+                        <div class="d-md-none d-flex gap-3 ">
+                            <a href="#" class="text-decoration-none d-flex justify-content-end"><img src="IMAGES/playStore.svg" class="w-60"></a>
+                            <a href="#" class="text-decoration-none"><img src="IMAGES/appaleStore.svg"
+                                    class="w-60"></a>
                         </div>
                     </div>
                 </div>
@@ -233,7 +239,7 @@
         </div>
         <!-- !-- ############################# footer ##############################  -->
         <div class="bg-main py-5">
-            <div class="d-flex flex-column align-items-center container border-bottom ">
+            <div class="d-flex flex-column align-items-center container" style="border-bottom:1px solid rgba(255, 255, 255, 0.29);">
                 <img src="IMAGES/footerLogo.svg" alt="">
                 <p class="py-3 m-0 text-light text-center fs-18 fWeight-400">The comprehensive app for effortless
                     management of
@@ -241,7 +247,7 @@
                     affairs, empowering
                     owners and tenants with streamlined communication, rent payments, and maintenance requests.
                 </p>
-                <div class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-3 pb-5 py-3">
+                <div class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-2 pb-5 py-3">
                     <img src="IMAGES/footerApple.svg" class="w-100 imgWidth">
                     <img src="IMAGES/footerPlay.svg" class="w-100 imgWidth">
                 </div>
