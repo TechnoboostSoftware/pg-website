@@ -42,12 +42,13 @@
         <!-- ############################# NAVBAR #################################-->
         <nav class="navbar navbar-expand-md nav-mobile py-3 border border-bottom">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="IMAGES/navLogo.svg"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <a class="navbar-brand d-md-block d-none" href="index.html"><img src="IMAGES/navLogo.svg"></a>
+                <a class="navbar-brand d-md-none d-block" href="index.html"><img src="IMAGES/footerLogo.svg"></a>
+
+                <img src="IMAGES/navToggle.svg" alt="" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul
                         class="navbar-nav d-flex flex-md-row flex-column align-items-md-center justify-content-md-center justify-content-between ms-auto mb-2 ps-3 mb-lg-0">
@@ -94,10 +95,10 @@
         <div class="container" id="landingPage">
             <div class="Perfect d-flex flex-column align-items-center py-5">
                 <p class="fWeight-700 fs-66 m-0 text-dark">Perfect Choice</p>
-                <p class="fWeight-700 fs-66 text-dark"> for <span class="text-purple">PG Management</span></p>
+                <p class="fWeight-700 fs-66 text-dark"> For <span class="text-purple">PG Management</span></p>
                 <p class="fWeight-500 fs-18 text-center w-860">The comprehensive app for effortless management of
-                    man and PG affairs, empowering owners and
-                    tenants with streamlined communication, rent payments, and maintenance requests.
+                    transactions and PG affairs, empowering owners and tenants with streamlined communication, rent
+                    payments, and maintenance requests.
                 </p>
                 <div class="d-md-flex d-none gap-3 align-items-md-start align-items-center pt-3">
                     <a href="#" class="text-decoration-none"><img src="IMAGES/playStore.svg" class="w-100"></a>
@@ -119,7 +120,7 @@
         <!-- ############################# choose #################################-->
         <div id="choose" class="container d-flex flex-column align-items-center pt-5">
             <p class="fWeight-700 fs-35 m-0 text-dark capitilize">Why do you choose us</p>
-            <p class="fWeight-500 fs-18 text-center w-711">The comprehensive app for effortless management of
+            <p class="fWeight-500 fs-18 text-center w-711 pt-4">The comprehensive app for effortless management of
                 man and PG affairs, empowering owners and
                 tenants with streamlined communication, rent payments, and maintenance requests.
             </p>
@@ -128,10 +129,9 @@
                     <div
                         class="chooseBox h-100 border rounded d-flex py-3 px-3 flex-column justify-content-center align-items-center">
                         <img src="IMAGES/transactions.svg" class="py-3">
-                        <p class="fWeight-600 fs-20 text-dark text-center">Effortless Transactions</p>
-                        <p class="fWeight-500 fs-14 text-center">Our app simplifies the process of rent payments,
-                            making it easy for tenants to pay their dues and for owners to track and manage
-                            man.
+                        <p class="fWeight-600 text-dark text-center WhyTitle">Effortless Transactions</p>
+                        <p class="fWeight-500 fs-14 text-center">Our app simplifies the process of rent payments, making
+                            it easy for tenants to pay their dues and for owners to track and manage transactions.
                         </p>
                     </div>
                 </div>
@@ -139,10 +139,10 @@
                     <div
                         class="chooseBox h-100 border rounded d-flex py-3 px-3 flex-column justify-content-center align-items-center">
                         <img src="IMAGES/friendly.svg" class="py-3">
-                        <p class="fWeight-600 fs-20 text-dark text-center">User-Friendly Interface</p>
-                        <p class="fWeight-500 fs-14 text-center ">Our app simplifies the process of rent payments,
-                            making it easy for tenants to pay their dues and for owners to track and manage
-                            man.
+                        <p class="fWeight-600 text-dark text-center WhyTitle">User-Friendly Interface</p>
+                        <p class="fWeight-500 fs-14 text-center ">Our app offers a intuitive and user-friendly
+                            interface, ensuring a seamless experience for both owners and tenants, even for those less
+                            tech-savvy.
                         </p>
                     </div>
                 </div>
@@ -150,10 +150,9 @@
                     <div
                         class="chooseBox h-100 border rounded d-flex py-3 px-3 flex-column justify-content-center align-items-center">
                         <img src="IMAGES/secure.svg" class="py-3">
-                        <p class="fWeight-600 fs-20 text-dark text-center">Secure Data Storage</p>
-                        <p class="fWeight-500 fs-14 text-center ">Our app simplifies the process of rent payments,
-                            making it easy for tenants to pay their dues and for owners to track and manage
-                            man.
+                        <p class="fWeight-600 text-dark text-center WhyTitle">Secure Data Storage</p>
+                        <p class="fWeight-500 fs-14 text-center ">Rest easy knowing that your personal information and
+                            transaction data are securely stored and protected.
                         </p>
                     </div>
                 </div>
@@ -161,10 +160,9 @@
                     <div
                         class="chooseBox h-100 border rounded d-flex py-3 px-3 flex-column justify-content-center align-items-center">
                         <img src="IMAGES/access.svg" class="py-3">
-                        <p class="fWeight-600 fs-20 text-dark text-center">Accessibility</p>
-                        <p class="fWeight-500 fs-14 text-center ">Our app simplifies the process of rent payments,
-                            making it easy for tenants to pay their dues and for owners to track and manage
-                            man.
+                        <p class="fWeight-600 text-dark text-center WhyTitle">Accessibility</p>
+                        <p class="fWeight-500 fs-14 text-center ">Access the app anytime, anywhere, using your
+                            smartphone or tablet, ensuring convenience and flexibility for both owners and tenants.
                         </p>
                     </div>
                 </div>
@@ -226,9 +224,8 @@
                         <div class="">
                             <p class="m-0 text-md-end text-start text-dark fWeight-600 fs-25">Manage Compliants</p>
                             <p class="m-0 text-md-end text-start fWeight-500 fs-14">Report maintenance or other issues
-                                with just a few
-                                taps, making it
-                                simple for tenants to submit complaints through the app.</p>
+                                with just a few taps, making it simple for tenants to submit complaints through the app.
+                            </p>
                         </div>
                         <div class="px-2 d-md-inline d-none">
                             <img src="IMAGES/manage.svg">
@@ -241,9 +238,8 @@
                         <div class="">
                             <p class="m-0 text-md-end text-start text-dark fWeight-600 fs-25">Manage Tenants</p>
                             <p class="m-0 text-md-end text-start fWeight-500 fs-14">Maintain comprehensive profiles for
-                                each tenant,
-                                including contact information, lease details, ensuring easy access to tenant
-                                information.</p>
+                                each tenant, including contact information, lease details, ensuring easy access to
+                                tenant information.</p>
                         </div>
                         <div class="px-2 d-md-inline d-none">
                             <img src="IMAGES/manageTenants.svg">
@@ -256,8 +252,7 @@
                         <div class="">
                             <p class="m-0 text-md-end text-start text-dark fWeight-600 fs-25">Manage Rooms</p>
                             <p class="m-0 text-md-end text-start fWeight-500 fs-14">Easily allocate rooms to tenants,
-                                keeping track of
-                                occupancy and ensuring efficient utilization of available space.</p>
+                                keeping track of occupancy and ensuring efficient utilization of available space.</p>
                         </div>
                         <div class="px-2 d-md-inline d-none">
                             <img src="IMAGES/manageRooms.svg">
@@ -277,7 +272,9 @@
                         </div>
                         <div class="">
                             <p class="m-0 text-start text-dark fWeight-600 fs-25">Easy payment methods</p>
-                            <p class="m-0 text-start fWeight-500 fs-14">Choose from various payment methods, including credit/debit cards, bank transfers, or mobile wallets, offering flexibility to tenants.</p>
+                            <p class="m-0 text-start fWeight-500 fs-14">Choose from various payment methods, including
+                                credit/debit cards, bank transfers, or mobile wallets, offering flexibility to tenants.
+                            </p>
                         </div>
 
                     </div>
@@ -342,11 +339,13 @@
                     class="position-absolute w-75 map rounded" width="100%" height="100%" style="border:0;"
                     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div class="container d-flex flex-column align-items-center py-md-5 py-4">
-                    <div class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-2 pb-md-3 pb-2">
+                    <div
+                        class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-2 pb-md-3 pb-2">
                         <img src="IMAGES/searchId.svg">
                         <p class="fWeight-700 fs-35 m-0 text-light capitilize">Search PG iD here</p>
                     </div>
-                    <p class="fWeight-500 fs-18 text-center text-light pb-md-5 pb-0 w-711">Quickly search and find specific PGs
+                    <p class="fWeight-500 fs-18 text-center text-light pb-md-5 pb-0 w-711">Quickly search and find
+                        specific PGs
                         by
                         entering
                         their
@@ -372,57 +371,51 @@
         <div class="pb-5">
             <div class="stories w-100">
                 <div class="bg-main rounded d-flex py-2 px-3 mx-md-4 mx-2 justify-content-center align-items-start">
-                    <img src="IMAGES/man.svg" class="py-2 man">
+                    <img src="IMAGES/amit.svg" class="py-2 man">
                     <div class="d-flex flex-column ps-4">
-                        <p class="fWeight-700 fs-20 text-light storiesTenant">Tenant Name-<span
+                        <p class="fWeight-700 fs-20 text-light storiesTenant">Amit-<span
                                 class="fWeight-500 text-light fs-18">Tenant</span></p>
                         <img src="IMAGES/storyStar.svg" class="w-25 storyStar pb-3">
-                        <p class="fWeight-400 fs-14 text-light storiesLorem">Lorem Ipsum is simply dummy text of the
-                            printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s,
+                        <p class="fWeight-400 fs-14 text-light storiesLorem">“This app has revolutionized my PG search!
+                            It’s so easy to use and has saved me so much time. I found the perfect place in no time.
+                            Highly recommended!”
                         </p>
                     </div>
                 </div>
                 <div class="bg-main rounded d-flex py-2 px-3 mx-md-4 mx-2 justify-content-center align-items-start">
-                    <img src="IMAGES/man.svg" class="py-2 man">
+                    <img src="IMAGES/rajesh.svg" class="py-2 man">
                     <div class="d-flex flex-column ps-4">
-                        <p class="fWeight-700 fs-20 text-light storiesTenant">Tenant Name-<span
+                        <p class="fWeight-700 fs-20 text-light storiesTenant">Rajesh -<span
                                 class="fWeight-500 text-light fs-18">Tenant</span></p>
                         <img src="IMAGES/storyStar.svg" class="w-25 storyStar pb-3">
-                        <p class="fWeight-400 fs-14 text-light storiesLorem">Lorem Ipsum is simply dummy text of the
-                            printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s,
+                        <p class="fWeight-400 fs-14 text-light storiesLorem">“ The best part about this app is how it
+                            manages everything. From rent payments to maintenance requests, it’s all in one place. It’s
+                            made my life so much easier “
                         </p>
                     </div>
                 </div>
                 <div class="bg-main rounded d-flex py-2 px-3 mx-md-4 mx-2 justify-content-center align-items-start">
-                    <img src="IMAGES/man.svg" class="py-2 man">
+                    <img src="IMAGES/vikram.svg" class="py-2 man">
                     <div class="d-flex flex-column ps-4">
-                        <p class="fWeight-700 fs-20 text-light storiesTenant">Tenant Name-<span
+                        <p class="fWeight-700 fs-20 text-light storiesTenant">Vikram -<span
                                 class="fWeight-500 text-light fs-18">Tenant</span></p>
                         <img src="IMAGES/storyStar.svg" class="w-25 storyStar pb-3">
-                        <p class="fWeight-400 fs-14 text-light storiesLorem">Lorem Ipsum is simply dummy text of the
-                            printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s,
+                        <p class="fWeight-400 fs-14 text-light storiesLorem">“I can’t imagine going back to the old way
+                            of finding and managing PGs. This app has made the process so much smoother and stress-free.
+                            Kudos to the team!”
                         </p>
                     </div>
                 </div>
-                <div class="bg-main rounded d-flex py-2 px-3 mx-md-4 mx-2 justify-content-center align-items-start">
+                <!-- <div class="bg-main rounded d-flex py-2 px-3 mx-md-4 mx-2 justify-content-center align-items-start">
                     <img src="IMAGES/man.svg" class="py-2 man">
                     <div class="d-flex flex-column ps-4">
-                        <p class="fWeight-700 fs-20 text-light storiesTenant">Tenant Name-<span
+                        <p class="fWeight-700 fs-20 text-light storiesTenant">Vikram -<span
                                 class="fWeight-500 text-light fs-18">Tenant</span></p>
                         <img src="IMAGES/storyStar.svg" class="w-25 storyStar pb-3">
-                        <p class="fWeight-400 fs-14 text-light storiesLorem">Lorem Ipsum is simply dummy text of the
-                            printing and
-                            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s,
+                        <p class="fWeight-400 fs-14 text-light storiesLorem">“I can’t imagine going back to the old way of finding and managing PGs. This app has made the process so much smoother and stress-free. Kudos to the team!”
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="d-flex gap-3 align-items-center justify-content-center pt-5 pb-3">
                 <img src="IMAGES/previousBtn.svg" class="previousBtn">
@@ -435,11 +428,9 @@
             <div class="d-flex flex-column align-items-center container"
                 style="border-bottom:1px solid rgba(255, 255, 255, 0.29);">
                 <img src="IMAGES/footerLogo.svg">
-                <p class="py-3 m-0 text-light text-center fs-18 fWeight-400 w-860">The comprehensive app for effortless
-                    management of
-                    transactions and PG
-                    affairs, empowering
-                    owners and tenants with streamlined communication, rent payments, and maintenance requests.
+                <p class="py-3 m-0 text-light text-center fs-18 fWeight-400 w-860">Experience effortless PG management
+                    and transactions with our comprehensive app. Streamline communication, rent payments, and
+                    maintenance.
                 </p>
                 <div class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-3 pb-5 py-3">
                     <img src="IMAGES/footerApple.svg" class="w-100 imgWidth">
@@ -474,7 +465,7 @@
                     {
                         breakpoint: 767,
                         settings: {
-                            slidesToShow: 1,
+                            slidesToShow: 0.97,
                             slidesToScroll: 1,
                             infinite: true,
                             arrows: false,

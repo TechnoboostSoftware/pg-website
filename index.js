@@ -30,7 +30,8 @@ function Tenant() {
 function search() {
   $("#searchDropdown").removeClass("d-none");
   $("#searchDropdown").addClass("d-flex");
-  // $("#searchBar").css("height", "750px");
+  $(".searchbar").removeClass("fullRounded");
+  $(".searchbar").addClass("halfRounded");
 }
 
 function register() {
@@ -65,4 +66,11 @@ function contactSubmit() {
 
 function removeErrorBorder(id) {
   document.getElementById(id).style.border = 'none'
+}
+
+function quesiton(ans) {
+  $('.normalQuestion').addClass('notSelected')
+  $('.normalQuestion').removeClass('selected')
+  $(ans).addClass('selected')
+  $(ans).removeClass('notSelected')
 }

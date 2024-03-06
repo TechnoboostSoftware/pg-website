@@ -40,25 +40,31 @@
         <!-- ############################# NAVBAR #################################-->
         <nav class="navbar navbar-expand-md nav-mobile py-3 border border-bottom">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="IMAGES/navLogo.svg"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a class="navbar-brand d-md-block d-none" href="index.html"><img src="IMAGES/navLogo.svg"></a>
+                <a class="navbar-brand d-md-none d-block" href="index.html"><img src="IMAGES/footerLogo.svg"></a>
+
+                <img src="IMAGES/navToggle.svg" alt="" class="navbar-toggler border-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul
                         class="navbar-nav d-flex flex-md-row flex-column align-items-md-center justify-content-md-center justify-content-between ms-auto mb-2 ps-3 mb-lg-0">
                         <li class="nav-item me-4 d-flex justify-content-between py-md-0 py-2">
-                            <a class="p-0 fs-20 fWeight-500 pb-1 text-dark nav-link" href="index.html">Home</a>
+                            <a class="p-0 fs-20 fWeight-500 pb-1 text-purple  nav-link" href="index.html">Home</a>
                             <img src="IMAGES/navImg.svg">
                         </li>
                         <li class="nav-item me-4 d-flex justify-content-between py-md-0 py-2">
-                            <a class="p-0 fs-20 fWeight-500 pb-1 nav-link text-purple" href="find.html">Find PG ID?</a>
+                            <a class="p-0 fs-20 fWeight-500 pb-1 nav-link  text-dark" href="find.html">Find PG ID?</a>
                             <img src="IMAGES/navImg.svg">
                         </li>
                         <li class="nav-item me-4 d-flex justify-content-between py-md-0 py-2">
                             <a class="p-0 fs-20 fWeight-500 pb-1 nav-link text-dark" href="contact.html">Contact</a>
+                            <img src="IMAGES/navImg.svg">
+                        </li>
+                        <li class="nav-item me-4 d-md-none d-flex justify-content-between py-md-0 py-2">
+                            <a class="p-0 fs-20 fWeight-500 pb-1 nav-link text-dark" href="register.html">Register
+                                PG</a>
                             <img src="IMAGES/navImg.svg">
                         </li>
                         <li class="nav-item ms-md-5 ms-0 mt-md-0 mt-3 d-flex justify-content-center align-items-center">
@@ -92,7 +98,7 @@
                 </div>
                 <div class="d-flex flex-column align-items-center">
                     <div class="d-flex align-items-center justify-content-center searchWidth w-75 ">
-                        <div class="input-group rounded input-group-lg bg-light mt-md-5 mt-3 p-2 ">
+                        <div class="input-group searchbar fullRounded input-group-lg bg-light mt-md-5 mt-3 p-2 ">
                             <input type="text" id="myInput"
                                 class="form-control border-0 bg-light fWeight-400 footerInput text-dark fs-20 px-3 py-2"
                                 aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg"
@@ -273,15 +279,15 @@
                             management of transactions and
                             PG affairs, empowering owners and tenants with streamlined communication, rent payments, and
                             maintenance requests.</p>
-                        <div class="d-md-flex d-none gap-3 align-items-md-start align-items-center">
+                        <div class="d-md-flex d-none gap-3 pt-2 align-items-md-start align-items-center">
                             <a href="#" class="text-decoration-none"><img src="IMAGES/playStore.svg" class="w-100"></a>
                             <a href="#" class="text-decoration-none"><img src="IMAGES/appaleStore.svg"
                                     class="w-100"></a>
                         </div>
                         <div class="d-md-none d-flex gap-3 ">
-                            <a href="#" class="text-decoration-none d-flex justify-content-end"><img src="IMAGES/playStore.svg" class="w-60"></a>
-                            <a href="#" class="text-decoration-none"><img src="IMAGES/appaleStore.svg"
-                                    class="w-60"></a>
+                            <a href="#" class="text-decoration-none d-flex justify-content-end"><img
+                                    src="IMAGES/playStore.svg" class="w-60"></a>
+                            <a href="#" class="text-decoration-none"><img src="IMAGES/appaleStore.svg" class="w-60"></a>
                         </div>
                     </div>
                 </div>
@@ -291,13 +297,11 @@
 
         <!-- !-- ############################# footer ##############################  -->
         <div class="bg-main py-5">
-            <div class="d-flex flex-column align-items-center container" style="border-bottom:1px solid rgba(255, 255, 255, 0.29);">
+            <div class="d-flex flex-column align-items-center container"
+                style="border-bottom:1px solid rgba(255, 255, 255, 0.29);">
                 <img src="IMAGES/footerLogo.svg">
-                <p class="py-3 m-0 text-light text-center fs-18 fWeight-400">The comprehensive app for effortless
-                    management of
-                    transactions and PG
-                    affairs, empowering
-                    owners and tenants with streamlined communication, rent payments, and maintenance requests.
+                <p class="py-3 m-0 text-light text-center fs-18 fWeight-400">Experience effortless PG management and
+                    transactions with our comprehensive app. Streamline communication, rent payments, and maintenance.
                 </p>
                 <div class="d-flex flex-md-row flex-column justify-content-center align-items-center gap-2 pb-5 py-3">
                     <img src="IMAGES/footerApple.svg" class="w-100 imgWidth">
