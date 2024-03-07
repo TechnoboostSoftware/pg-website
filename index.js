@@ -50,22 +50,38 @@ function register() {
   }
 }
 function contactSubmit() {
-  var Name = document.getElementById("contactName");
-  var Number = document.getElementById("contactNo");
-  var Address = document.getElementById("contactAddress");
-  var Message = document.getElementById("contactMessage");
+  var Name = document.getElementById("contactName").value;
+  var Number = document.getElementById("contactNo").value;
+  var Address = document.getElementById("contactAddress").value;
+  var Message = document.getElementById("contactMessage").value;
   let isError = false;
-  var contact = [Name, Number, Address, Message];
-  for (let i = 0; i < contact.length; i++) {
-    if (contact[i].value == "") {
-      contact[i].style.border = "2px solid red";
-      isError = true;
-    }
+  if (Name == "") {
+    document.getElementById("contactName").style.border = "1px solid red";
+    isError = true;
+  }
+
+  if (Number == "") {
+    document.getElementById("contactNo").style.border = "1px solid red";
+    isError = true;
+  }
+
+  if (Address == "") {
+    document.getElementById("contactAddress").style.border = "1px solid red";
+    isError = true;
+  }
+
+  if (Message == "") {
+    document.getElementById("contactMessage").style.border = "1px solid red";
+    isError = true;
+  }
+
+  if (!isError) {
+    console.log('hi');
   }
 }
 
 function removeErrorBorder(id) {
-  document.getElementById(id).style.border = 'none'
+  document.getElementById(id).style.border = '1px solid #e9e7e7'
 }
 
 function quesiton(ans) {

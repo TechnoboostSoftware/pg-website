@@ -31,7 +31,7 @@
 
 .inputBg {
     background: #fff;
-    border: 1px solid #e9e7e7 !important;
+    border: 1px solid #e9e7e7; 
 }
 
 .bg-main:hover {
@@ -207,9 +207,6 @@ input#footerInput :focus {
     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.emptyInput {
-    border: none;
-}
 
 .registerForm {
     height: 750px;
@@ -281,6 +278,9 @@ input#footerInput :focus {
 .nav-link{
     font-size: 14px !important;
 }
+.errorBorder{
+    border: 1px solid red;
+}
 /*  #############################  mobile ########################### */
 
 @media only screen and (max-width: 767px) {
@@ -292,10 +292,10 @@ input#footerInput :focus {
         width: 80%;
     }
 
-    .nav-mobile .text-dark,
+    /* .nav-mobile .text-dark,
     .nav-mobile .text-purple {
         color: white !important;
-    }
+    } */
 
     .fs-14,
     .fs-18 {
